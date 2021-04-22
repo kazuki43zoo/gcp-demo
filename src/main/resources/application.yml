@@ -1,0 +1,15 @@
+spring:
+  cloud:
+    gcp:
+      project-id: kazuki43zoo-gcp-test
+      core:
+        enabled: true
+      sql:
+        database-name: sample
+        instance-connection-name: kazuki43zoo-gcp-test:us-central1:kazuki43zoo-gcp-test-sql
+  datasource:
+    username: devuser
+    password: devuser
+logging:
+  level:
+    com.google.cloud: info
